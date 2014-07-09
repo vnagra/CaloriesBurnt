@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.test.FirstrunActivity" >
+
+<Button
+    android:id="@+id/btnSend"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:text="Send" />
+
+<EditText
+    android:id="@+id/txtEmail"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignTop="@+id/btnSend"
+    android:layout_toLeftOf="@id/btnSend"
+    android:ems="10"
+    android:gravity="center_vertical"
+    android:hint="example@site.com"
+    android:imeOptions="actionSend"
+    android:inputType="textEmailAddress"
+    android:singleLine="true" >
+
+    <requestFocus />
+</EditText>
+</RelativeLayout>

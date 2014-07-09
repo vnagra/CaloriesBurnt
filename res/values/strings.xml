@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="fasle">Calorie Burnt</string>
+    <string name="action_settings" translatable="fasle">Settings</string>
+    <string name="start" translatable="fasle">START</string>
+    <string name="distanceTravelled" translatable="fasle">DISTANCE</string>
+    <string name="caloriesBurnt" translatable="fasle">CALORIES</string>
+
+</resources>
